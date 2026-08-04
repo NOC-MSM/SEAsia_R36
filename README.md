@@ -14,3 +14,7 @@
 | **Vertical Coordinate System** | **z-level and terrain following hybrid** |
 
 ---
+
+![SEAsia Model Domain](SEAsia_domain.png)
+
+*Geographic boundaries and domain coverage for the 1/36° SEAsia NEMO configuration.*
