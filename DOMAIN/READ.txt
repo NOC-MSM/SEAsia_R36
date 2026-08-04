@@ -1,1 +1,1 @@
-This is the folder for your atmospheric forcing to be downloaded from here
+This is the folder for your domain file to be downloaded from here:
