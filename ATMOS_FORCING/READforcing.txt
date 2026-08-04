@@ -1,0 +1,1 @@
+This is the directory where you can download your atmospheric forcing, for example from here: 
