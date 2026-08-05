@@ -10,7 +10,7 @@ Welcome to the documentation for **SEAsia R36**. This guide provides explicit, s
 
 ## Getting Started Setup Guide
 
-*_Note: The guide is set up for instructions for ARCHER2 HPC, you will have to adjust for your HPC environments (modules, compilers, libraries etc.)._*
+*Note: The guide is set up for instructions for ARCHER2 HPC, you will have to adjust for your HPC environments (modules, compilers, libraries etc.).*
 
 First clone the SEAsia GitHub repository to your HPC to provide a consistent directory environment with the guide and any start files you may need.
 ```bash
