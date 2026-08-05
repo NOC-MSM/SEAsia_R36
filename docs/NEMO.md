@@ -16,7 +16,7 @@ Checkout the target release (NEMO 4.0.4) using Subversion (`svn`) and navigate i
 
 ```bash
 # Checkout NEMO 4.0.4 release
-svn co [https://svn-mirror.nemo-ocean.eu/NEMO/releases/r4.0/r4.0.4](https://svn-mirror.nemo-ocean.eu/NEMO/releases/r4.0/r4.0.4) NEMO_4.0.4
+svn co https://svn-mirror.nemo-ocean.eu/NEMO/releases/r4.0/r4.0.4 NEMO_4.0.4
 cd NEMO_4.0.4
 ```
 
