@@ -1,6 +1,6 @@
-title: Our NEMO Page
-url: https://katavouta.github.io/our_page2/docs/assets/graphics.004.jpeg
-description: "Our first great site"
-author: "NEMO team"
+title: South East Asia Ocean Model R36
+url: https://github.com/NOC-MSM/SEAsia_R36/blob/main/docs/assets/SEAsoa_r36_logo.jpeg
+description: "Instructions for setting up and running the SEAsia NEMO configuration in 1/36 degree resolution"
+author: "Anna Katavouta"
 
 theme: minima
