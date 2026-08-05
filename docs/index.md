@@ -19,8 +19,8 @@ git clone [https://github.com/NOC-MSM/SEAsia_R36.git](https://github.com/NOC-MSM
 
 Then, Follow the instructions in the pages below sequentially:
 
-1. **[1. XIOS](XIOS.md)**  
+1. **[XIOS](XIOS.md)**  
    Downloading and installing XIOS.
 
-2. **[2. Downloading NEMO & Model Code](page2-download-nemo.md)**  
+2. **[Downloading NEMO & Model Code](page2-download-nemo.md)**  
    Cloning the repository, obtaining the NEMO code, and setting up the recommended domain directory structure.
