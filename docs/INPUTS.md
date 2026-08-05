@@ -10,7 +10,7 @@ wget https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/DOMAIN/dom
 cd ..
 
 ######################
-2 download your atmospheric forcing
+2 download your atmospheric forcing (and also the weights nemo needs to online interpolate this forcing to the R36 domain)
 cd ATMOS_FORCING
 
 wget https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/ATMOS_FORCING/weights_bicubic_atmos.nc
