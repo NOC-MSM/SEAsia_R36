@@ -12,16 +12,16 @@ This guide outlines the procedure for downloading the domain configuration and s
 
 | Section | Data Type | Method / Description |
 | :--- | :--- | :--- |
-| **1. Domain** | Grid Bathymetry & Configuration | Direct `wget` download |
-| **2. Atmospheric Forcing** | ERA5 Meteorology & Interpolation Weights | Bash loop over parameter list |
-| **3. Open Ocean Boundary** | 3D Physical Boundary Conditions | Monthly loop over T, U, V, and barotropic components |
-| **4. Tidal Forcing** | Harmonic Tidal Constituents | `urls.txt` file list download |
-| **5. River Runoff** | Freshwater Input | Direct `wget` download |
-| **6. Restart File** | Pre-spun Initial State | Direct `wget` download |
+| **Domain** | Grid Bathymetry & Configuration | Direct `wget` download |
+| **Atmospheric Forcing** | ERA5 Meteorology & Interpolation Weights | Bash loop over parameter list |
+| **Open Ocean Boundary** | 3D Physical Boundary Conditions | Monthly loop over T, U, V, and barotropic components |
+| **Tidal Forcing** | Harmonic Tidal Constituents | `urls.txt` file list download |
+| **River Runoff** | Freshwater Input | Direct `wget` download |
+| **Restart File** | Pre-spun Initial State | Direct `wget` download |
 
 ---
 
-## 1. Domain Configuration
+## Domain Configuration
 
 Navigate to your `DOMAIN` directory and download the domain setup file:
 
@@ -33,7 +33,7 @@ cd ..
 
 ---
 
-## 2. Atmospheric Forcing & Interpolation Weights
+## Atmospheric Forcing & Interpolation Weights
 
 Download the bicubic/bilinear weight files along with all required ERA5 atmospheric fields for 2023:
 
@@ -57,7 +57,7 @@ cd ..
 
 ---
 
-## 3. Open Ocean Boundary Conditions (BC)
+## Open Ocean Boundary Conditions (BC)
 
 Download boundary coordinates and use a month-by-month loop (`m01` to `m12`) to download boundary files for T, U, V, and barotropic T fields:
 
@@ -82,7 +82,7 @@ cd ..
 
 ---
 
-## 4. Tidal Forcing
+## Tidal Forcing
 
 Because tidal forcing consists of many individual harmonic constituents across `T`, `U`, and `V` grid points, generate a list file (`urls.txt`) and download them in batch:
 
@@ -116,7 +116,7 @@ cd ..
 
 ---
 
-## 5. River Runoff
+## River Runoff
 
 Download the river runoff dataset:
 
@@ -128,7 +128,7 @@ cd ..
 
 ---
 
-## 6. Restart File (Initial Condition)
+## Restart File (Initial Condition)
 
 Download the pre-spun initial state restart file to start the run from an existing spun-up state:
 
