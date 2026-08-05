@@ -1,5 +1,7 @@
 ---
+layout: default
 title: 1. XIOS
+nav_order: 2
 ---
 
 This guide covers the steps required to download, configure, and compile **XIOS** (XML Input Output Server) for the **SEAsia R36** model.
