@@ -26,5 +26,8 @@ Then, Follow the instructions in the pages below sequentially:
 2. **[NEMO](NEMO.md)**  
    Downloading NEMO (version 4.0.4), and creating/compiling your SEAsia configuration.
 
-2. **[INPUT](INPUT.md)**  
+3. **[INPUT](INPUT.md)**  
    Download the domain and example forcing to run your first experiment.
+
+4. **[SET_EXP](SET_EXP.md)**  
+   Set your experiment and run the model.
