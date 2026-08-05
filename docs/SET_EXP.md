@@ -7,7 +7,7 @@ This final step guides you through setting up the test experiment directory (`EX
 
 ---
 
-## 1. Directory Setup & Copying Executables
+## Directory Setup & Copying Executables
 
 Navigate into your test experiment directory and copy both the compiled **NEMO** and **XIOS** executables:
 
@@ -23,7 +23,7 @@ cp ../xios-2.5/bin/xios_server.exe ./
 
 ---
 
-## 2. Configuration & Namelist Checks
+## Configuration & Namelist Checks
 
 Before running the simulation, check and adjust your configuration files:
 
@@ -38,7 +38,7 @@ Before running the simulation, check and adjust your configuration files:
    ```
 ---
 
-## 3. Submitting the Job
+## Submitting the Job
 
 Modify `runscript.slurm` for your HPC environment (account details, queue, walltime, and core count).
 
