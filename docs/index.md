@@ -2,9 +2,9 @@
   <img width="500" src="./assets/SEAsoa_r36_logo.jpeg" alt="SEAsia R36 Logo">
 </p>
 
-# South East Asia Ocean Model — SEAsia R36
+# SEAsia R36
 
-Welcome to the documentation for **SEAsia R36**. This guide provides explicit, step-by-step instructions for setting up and running the model—from downloading NEMO to completing a full test simulation year.
+Welcome to the documentation for South East Asia Ocean Model —  **SEAsia R36**. This guide provides explicit, step-by-step instructions for setting up and running the model—from downloading NEMO to completing a full test simulation year.
 
 ---
 
