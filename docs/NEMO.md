@@ -97,6 +97,8 @@ cd ../..
 
 # Compile with updated CPP keys and custom sources
 ./makenemo -r SEAsia -m X86_ARCHER2-Cray -j 16
+
+cd ..
 ```
 
 ---
