@@ -10,7 +10,7 @@ This guide covers the steps required to download, configure, and compile **XIOS*
 
 ---
 
-## 1. Clone the XIOS Repository
+## Clone the XIOS Repository
 
 Due to updates on the IPSL/NEMO servers, clone from the generic mirror and switch to the `xios-2.5.x` branch:
 
@@ -29,7 +29,7 @@ git checkout origin/xios-2.5.x
 
 ---
 
-## 2. Load Required Modules (ARCHER2)
+## Load Required Modules (ARCHER2)
 
 Load the parallel HDF5 and NetCDF modules. On ARCHER2, switch the network layer to UCX first:
 
@@ -42,7 +42,7 @@ module load cray-netcdf-hdf5parallel/4.9.0.1
 
 ---
 
-## 3. Configure Architecture Files
+## Configure Architecture Files
 
 Copy the pre-configured ARCHER2 architecture files into the `arch/` directory:
 
@@ -52,9 +52,9 @@ cp ../FILES_START/xios_arch/arch-X86_ARCHER2-Cray.* arch/.
 
 ---
 
-## 4. Build XIOS
+## Build XIOS
 
-### Step 4a: First Build Attempt & FCM Patch
+### Step a: First Build Attempt & FCM Patch
 
 Run the initial compilation command:
 
@@ -70,7 +70,7 @@ Apply the patch to `tools/FCM/lib/Fcm/Config.pm`:
 sed -i "s/FC_MODSEARCH => ''/FC_MODSEARCH => '-J'/g" tools/FCM/lib/Fcm/Config.pm
 ```
 
-### Step 4b: Recompile XIOS
+### Step b: Recompile XIOS
 
 Re-run the exact same command to complete the installation:
 
