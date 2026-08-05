@@ -28,7 +28,11 @@ Before running the simulation, check and adjust your configuration files:
    Ensure all directory paths correctly point to your forcing, boundary conditions, tides, and restart files (downloaded in Step 3).
 2. **Processor Layout (`nammpp`)**:  
    Update the domain decomposition settings (`nammpp`) in `namelist_cfg` to match the core layout allocated on your HPC system.
-
+3. **Link the river file**:
+   For some reason (I need to fix that) for rivers long filenames do not work so fix for now by linking your river file in your run directory as:
+   ```bash
+   ln -s ../RIVERS/rivers_JRA55_COAST_S10_y2022.nc rivers_JRA55_y2022.nc
+   ```
 ---
 
 ## 3. Submitting the Job
