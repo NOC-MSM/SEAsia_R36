@@ -16,7 +16,7 @@ Due to updates on the IPSL/NEMO servers, clone from the generic mirror and switc
 
 ```bash
 # Clone XIOS repository into xios-2.5 directory
-git clone -b XIOS2 [https://gitlab.in2p3.fr/ipsl/projets/xios-projects/xios.git](https://gitlab.in2p3.fr/ipsl/projets/xios-projects/xios.git) xios-2.5
+git clone -b XIOS2 https://gitlab.in2p3.fr/ipsl/projets/xios-projects/xios.git xios-2.5
 cd xios-2.5
 
 # List all remote branches and tags to see what is there
