@@ -1,9 +1,3 @@
----
-layout: default
-title: SEAsia
-nav_order: 1
----
-
 <p align="center">
   <img width="500" src="./assets/SEAsoa_r36_logo.jpeg" alt="SEAsia R36 Logo">
 </p>
