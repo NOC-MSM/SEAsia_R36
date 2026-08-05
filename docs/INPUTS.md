@@ -82,3 +82,23 @@ wget https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/BC/SEAsia_
 wget https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/BC/SEAsia_R36_bt_bdyT_y2023m12.nc
 
 cd ..
+
+#############
+4. DOWNLOAD TIDES
+
+
+################
+5. Download rivers
+cd RIVERS
+
+wget https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/RIVERS/rivers_JRA55_COAST_S10_y2023.nc
+
+cd ...
+
+####################
+6. downalod a restart file so you can start from our already span up state (as a continuation of our runs starting at 1995)
+cd RESTARTS
+
+https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/RESTARTS/SEAsia_R36_07363440_restart.nC
+
+cd ..
