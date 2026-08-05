@@ -64,7 +64,7 @@ Download boundary coordinates and use a month-by-month loop (`m01` to `m12`) to 
 ```bash
 cd BC
 
-BASE_URL="[https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/BC](https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/BC)"
+BASE_URL="https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/BC"
 
 # Download boundary coordinates
 wget ${BASE_URL}/coordinates.bdy.nc
@@ -89,7 +89,7 @@ Because tidal forcing consists of many individual harmonic constituents across `
 ```bash
 cd TIDES
 
-BASE_URL="[https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/TIDES](https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/TIDES)"
+BASE_URL="https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/TIDES"
 
 # Download boundary coordinates for tides
 wget ${BASE_URL}/coordinates.bdy.nc
@@ -122,7 +122,7 @@ Download the river runoff dataset:
 
 ```bash
 cd RIVERS
-wget [https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/RIVERS/rivers_JRA55_COAST_S10_y2023.nc](https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/RIVERS/rivers_JRA55_COAST_S10_y2023.nc)
+wget https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/RIVERS/rivers_JRA55_COAST_S10_y2023.nc
 cd ..
 ```
 
@@ -134,7 +134,7 @@ Download the pre-spun initial state restart file to start the run from an existi
 
 ```bash
 cd RESTARTS
-wget [https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/RESTARTS/SEAsia_R36_07363440_restart.nc](https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/RESTARTS/SEAsia_R36_07363440_restart.nc)
+wget https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/RESTARTS/SEAsia_R36_07363440_restart.nc
 cd ..
 ```
 
