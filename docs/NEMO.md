@@ -10,7 +10,7 @@ This guide covers the instructions for downloading NEMO version 4.0.4, configuri
 
 ---
 
-## 1. Download NEMO 4.0.4
+## Download NEMO 4.0.4
 
 Checkout the target release (NEMO 4.0.4) using Subversion (`svn`) and navigate into the source directory:
 
@@ -22,7 +22,7 @@ cd NEMO_4.0.4
 
 ---
 
-## 2. Load Required Modules (ARCHER2)
+## Load Required Modules (ARCHER2)
 
 Load the parallel HDF5 and NetCDF modules matching your build environment:
 
@@ -35,9 +35,9 @@ module load cray-netcdf-hdf5parallel/4.9.0.1
 
 ---
 
-## 3. Configure Architecture & Environment Settings
+## Configure Architecture & Environment Settings
 
-### Step 3a: Copy Architecture File
+### Step a: Copy Architecture File
 
 Copy the ARCHER2 architecture file into the NEMO `arch/` directory:
 
@@ -45,7 +45,7 @@ Copy the ARCHER2 architecture file into the NEMO `arch/` directory:
 cp ../FILES_START/nemo_arch/arch-X86_ARCHER2-Cray.fcm arch/arch-X86_ARCHER2-Cray.fcm
 ```
 
-### Step 3b: Update XIOS Path
+### Step b: Update XIOS Path
 
 > **Attention**: You must update the XIOS directory path inside the architecture file to point to your local XIOS installation.
 
@@ -55,7 +55,7 @@ Update the path using `sed` (replace `/work/n01/n01/annkat/SEAsia_R36/xios-2.5` 
 sed -i "s,/work/n01/shared/acc/xios-2.5,/work/n01/n01/annkat/SEAsia_R36/xios-2.5,g" arch/arch-X86_ARCHER2-Cray.fcm
 ```
 
-### Step 3c: Patch FCM Module Search Flag
+### Step c: Patch FCM Module Search Flag
 
 Patch FCM in `ext/FCM/lib/Fcm/Config.pm` so it correctly passes the Fortran module path flag (`-J`):
 
@@ -65,9 +65,9 @@ sed -i "s/FC_MODSEARCH => ''/FC_MODSEARCH => '-J'/g" ext/FCM/lib/Fcm/Config.pm
 
 ---
 
-## 4. Build the SEAsia Configuration
+## Build the SEAsia Configuration
 
-### Step 4a: Create Initial Base Configuration
+### Step a: Create Initial Base Configuration
 
 Generate the initial `SEAsia` configuration using `AMM12` as the reference configuration:
 
@@ -75,7 +75,7 @@ Generate the initial `SEAsia` configuration using `AMM12` as the reference confi
 ./makenemo -n SEAsia -r AMM12 -m X86_ARCHER2-Cray -j 16
 ```
 
-### Step 4b: Copy Custom Source Files and CPP Keys
+### Step b: Copy Custom Source Files and CPP Keys
 
 Navigate to the newly created configuration directory and copy over the custom CPP keys and `MY_SRC` code additions:
 
@@ -85,7 +85,7 @@ cp ../../../FILES_START/cpp_SEAsia.fcm cpp_SEAsia.fcm
 cp -r -f ../../../FILES_START/MY_SRC ./
 ```
 
-### Step 4c: Clean and Recompile
+### Step c: Clean and Recompile
 
 Return to the root NEMO directory, clean the build target, and compile the final `SEAsia` executable:
 
