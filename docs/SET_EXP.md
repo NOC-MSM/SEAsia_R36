@@ -1,4 +1,7 @@
-# 4. SET_EXP
+---
+title: 4. SET_EXP
+---
+
 
 This final step guides you through setting up the test experiment directory (`EXP_TEST_2023`), copying the compiled executables, adjusting configuration files, and submitting the simulation job on your HPC.
 
