@@ -1,14 +1,46 @@
-###########
-This is for setting the sample experiment with SEAsia and submiting your run
+# 4. SET_EXP
 
+This final step guides you through setting up the test experiment directory (`EXP_TEST_2023`), copying the compiled executables, adjusting configuration files, and submitting the simulation job on your HPC.
+
+---
+
+## 1. Directory Setup & Copying Executables
+
+Navigate into your test experiment directory and copy both the compiled **NEMO** and **XIOS** executables:
+
+```bash
 cd EXP_TEST_2023
-### copy the nemo exxecutable that you have created for SEAsia in your experiment folder
-cp ../NEMO_4.0.4/cfgs/SEAsia/BLD/bin/nemo.exe nemo
 
-## copy the xios executable
+# Copy the NEMO executable built for the SEAsia configuration
+cp ../NEMO_4.0.4/cfgs/SEAsia/BLD/bin/nemo.exe ./nemo
+
+# Copy the XIOS executable
 cp ../xios-2.5/bin/xios_server.exe ./
+```
 
-### Note check the namelist_cfg and make sure you adjust everything for the directories pointing correcly to the forcing and also to the proccessors you are using 
-## to run based on your HPC (nammpp)
+---
 
+## 2. Configuration & Namelist Checks
 
+Before running the simulation, check and adjust your configuration files:
+
+1. **`namelist_cfg` Paths**:  
+   Ensure all directory paths correctly point to your forcing, boundary conditions, tides, and restart files (downloaded in Step 3).
+2. **Processor Layout (`nammpp`)**:  
+   Update the domain decomposition settings (`nammpp`) in `namelist_cfg` to match the core layout allocated on your HPC system.
+
+---
+
+## 3. Submitting the Job
+
+Modify `runscript.slurm` for your HPC environment (account details, queue, walltime, and core count).
+
+*_Note: The provided script uses the SLURM Workload Manager. If your HPC uses another scheduler (such as PBS Pro or LSF), adjust the submission directives accordingly._*
+
+Submit your job using:
+
+```bash
+sbatch runscript.slurm
+```
+
+---
