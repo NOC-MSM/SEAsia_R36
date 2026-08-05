@@ -23,5 +23,5 @@ Then, Follow the instructions in the pages below sequentially:
 1. **[XIOS](XIOS.md)**  
    Downloading and installing XIOS.
 
-2. **[Downloading NEMO & Model Code](page2-download-nemo.md)**  
-   Cloning the repository, obtaining the NEMO code, and setting up the recommended domain directory structure.
+2. **[NEMO](NEMO.md)**  
+   Downloading NEMO (version 4.0.4), and creating/compiling your SEAsia configuration.
