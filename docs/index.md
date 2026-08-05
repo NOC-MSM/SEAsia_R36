@@ -1,19 +1,25 @@
 <p align="center">
-  <img width="500" height="300" src="./assets/graphics.004.jpeg">
+  <img width="500" src="./assets/SEAsoa_r36_logo.jpeg" alt="SEAsia R36 Logo">
 </p>
 
+# South East Asia Ocean Model — SEAsia R36
 
-**Example page!**
-**This is the main page of your docume**
-
-# Your 1st subesections: 
-
-You can use subsection to seperate your text 
+Welcome to the documentation for **SEAsia R36**. This guide provides explicit, step-by-step instructions for setting up and running the model—from downloading NEMO to completing a full test simulation year.
 
 ---
 
-# Your 2nd subsection:
+## Getting Started Setup Guide
 
-if you want you can make it have another subsection whitin it like this:
- 
-## Subsubsection
+*_Note: The guide is set up for instructions for ARCHER2 HPC, you will have to adjust for your HPC environments (modules, compilers, libraries etc.)._*
+
+First clone the SEAsia GitHub repository to your HPC to provide a consistent directory environment with the guide and any start files you may need.
+```bash
+git clone [https://github.com/NOC-MSM/SEAsia_R36.git](https://github.com/NOC-MSM/SEAsia_R36.git)
+
+Then, Follow the instructions in the pages below sequentially:
+
+1. **[1. XIOS](XIOS.md)**  
+   Downloading and installing XIOS.
+
+2. **[2. Downloading NEMO & Model Code](page2-download-nemo.md)**  
+   Cloning the repository, obtaining the NEMO code, and setting up the recommended domain directory structure.
