@@ -35,7 +35,7 @@ Before running the simulation, check and adjust your configuration files:
 
 Modify `runscript.slurm` for your HPC environment (account details, queue, walltime, and core count).
 
-*Note: The provided script uses the SLURM Workload Manager. If your HPC uses another scheduler (such as PBS Pro or LSF), adjust the submission directives accordingly.*
+*Note: The provided script uses the SLURM Workload Manager. If your HPC uses another scheduler adjust the submission script accordingly.*
 
 Submit your job using:
 
