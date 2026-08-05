@@ -78,6 +78,7 @@ Re-run the exact same command to complete the installation:
 ./make_xios --prod --arch X86_ARCHER2-Cray --netcdf_lib netcdf4_par --full --job 4
 ```
 
+cd ..
 ---
 
 [← Back to Main Page](index.md)
