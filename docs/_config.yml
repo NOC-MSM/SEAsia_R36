@@ -5,3 +5,9 @@ author: "Anna Katavouta"
 
 theme: minima 
 
+header_pages:
+  - XIOS.md
+  - NEMO.md
+  - INPUT.md
+  - SET_EXP.md
+
