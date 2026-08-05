@@ -41,7 +41,7 @@ Download the bicubic/bilinear weight files along with all required ERA5 atmosphe
 cd ATMOS_FORCING
 
 # Base URL for atmospheric forcing
-BASE_URL="[https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/ATMOS_FORCING](https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/ATMOS_FORCING)"
+BASE_URL="https://gws-access.jasmin.ac.uk/public/accord/SEAsia_R36_FORCING/ATMOS_FORCING"
 
 # Download interpolation weights
 wget ${BASE_URL}/weights_bicubic_atmos.nc
