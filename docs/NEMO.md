@@ -1,5 +1,5 @@
 ---
-title: 2. Downloading and Compiling NEMO
+title: 2. NEMO
 ---
 
 This guide covers the instructions for downloading NEMO version 4.0.4, configuring the architecture files, and compiling the **SEAsia** configuration.
