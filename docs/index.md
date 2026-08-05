@@ -15,6 +15,7 @@ Welcome to the documentation for **SEAsia R36**. This guide provides explicit, s
 First clone the SEAsia GitHub repository to your HPC to provide a consistent directory environment with the guide and any start files you may need.
 ```bash
 git clone https://github.com/NOC-MSM/SEAsia_R36.git
+cd SEAsia_R36
 ```
 
 Then, Follow the instructions in the pages below sequentially:
