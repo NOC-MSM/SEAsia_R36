@@ -77,7 +77,7 @@ Generate the initial `SEAsia` configuration using `AMM12` as the reference confi
 
 ### Step b: Copy Custom Source Files and CPP Keys
 
-Navigate to the newly created configuration directory and copy over the custom CPP keys and `MY_SRC` code additions - Those are all inside the github FILES_START that you have clone already (https://github.com/NOC-MSM/SEAsia_R36):
+Navigate to the newly created configuration directory and copy over the custom CPP keys and `MY_SRC` code additions - Those are all inside the FILES_START folder in the github repository that you have cloned already (https://github.com/NOC-MSM/SEAsia_R36):
 
 ```bash
 cd cfgs/SEAsia
