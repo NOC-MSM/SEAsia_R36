@@ -12,7 +12,7 @@ Welcome to the documentation for **SEAsia R36**. This guide provides explicit, s
 
 *Note: The guide is set up for instructions for ARCHER2 HPC, you will have to adjust for your HPC environments (modules, compilers, libraries etc.).*
 
-First clone the SEAsia GitHub repository to your HPC to provide a consistent directory environment with the guide and any start files you may need. Most importantly you need the **MY_SRC** with the FILES_START that contains all the updates/changes to the nemo code to be consistent with our SEAsia experiments.
+First clone the SEAsia GitHub repository to your HPC to provide a consistent directory environment with the guide and any start files you may need. Most importantly you need the **MY_SRC** within the FILES_START that contains all the updates/changes to the nemo code to be consistent with our SEAsia experiments.
 ```bash
 git clone https://github.com/NOC-MSM/SEAsia_R36.git
 cd SEAsia_R36
